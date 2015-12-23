@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4692A1F1C2ADA6F00A5D2C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692A1E1C2ADA6F00A5D2C4 /* AppDelegate.swift */; };
+		C4692A211C2ADA6F00A5D2C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692A201C2ADA6F00A5D2C4 /* ViewController.swift */; };
+		C4692A241C2ADA6F00A5D2C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4692A221C2ADA6F00A5D2C4 /* Main.storyboard */; };
+		C4692A261C2ADA6F00A5D2C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4692A251C2ADA6F00A5D2C4 /* Assets.xcassets */; };
+		C4692A291C2ADA6F00A5D2C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4692A271C2ADA6F00A5D2C4 /* LaunchScreen.storyboard */; };
+		C4692A341C2ADA6F00A5D2C4 /* KKEventAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692A331C2ADA6F00A5D2C4 /* KKEventAppTests.swift */; };
+		C4692A3F1C2ADA6F00A5D2C4 /* KKEventAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692A3E1C2ADA6F00A5D2C4 /* KKEventAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4692A301C2ADA6F00A5D2C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4692A131C2ADA6F00A5D2C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4692A1A1C2ADA6F00A5D2C4;
+			remoteInfo = KKEventApp;
+		};
+		C4692A3B1C2ADA6F00A5D2C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4692A131C2ADA6F00A5D2C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4692A1A1C2ADA6F00A5D2C4;
+			remoteInfo = KKEventApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4692A1B1C2ADA6F00A5D2C4 /* KKEventApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKEventApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4692A1E1C2ADA6F00A5D2C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4692A201C2ADA6F00A5D2C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4692A231C2ADA6F00A5D2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4692A251C2ADA6F00A5D2C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4692A281C2ADA6F00A5D2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4692A2A1C2ADA6F00A5D2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4692A2F1C2ADA6F00A5D2C4 /* KKEventAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKEventAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4692A331C2ADA6F00A5D2C4 /* KKEventAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKEventAppTests.swift; sourceTree = "<group>"; };
+		C4692A351C2ADA6F00A5D2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4692A3A1C2ADA6F00A5D2C4 /* KKEventAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKEventAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4692A3E1C2ADA6F00A5D2C4 /* KKEventAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKEventAppUITests.swift; sourceTree = "<group>"; };
+		C4692A401C2ADA6F00A5D2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4692A181C2ADA6F00A5D2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4692A2C1C2ADA6F00A5D2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4692A371C2ADA6F00A5D2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4692A121C2ADA6F00A5D2C4 = {
+			isa = PBXGroup;
+			children = (
+				C4692A1D1C2ADA6F00A5D2C4 /* KKEventApp */,
+				C4692A321C2ADA6F00A5D2C4 /* KKEventAppTests */,
+				C4692A3D1C2ADA6F00A5D2C4 /* KKEventAppUITests */,
+				C4692A1C1C2ADA6F00A5D2C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4692A1C1C2ADA6F00A5D2C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4692A1B1C2ADA6F00A5D2C4 /* KKEventApp.app */,
+				C4692A2F1C2ADA6F00A5D2C4 /* KKEventAppTests.xctest */,
+				C4692A3A1C2ADA6F00A5D2C4 /* KKEventAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4692A1D1C2ADA6F00A5D2C4 /* KKEventApp */ = {
+			isa = PBXGroup;
+			children = (
+				C4692A1E1C2ADA6F00A5D2C4 /* AppDelegate.swift */,
+				C4692A201C2ADA6F00A5D2C4 /* ViewController.swift */,
+				C4692A221C2ADA6F00A5D2C4 /* Main.storyboard */,
+				C4692A251C2ADA6F00A5D2C4 /* Assets.xcassets */,
+				C4692A271C2ADA6F00A5D2C4 /* LaunchScreen.storyboard */,
+				C4692A2A1C2ADA6F00A5D2C4 /* Info.plist */,
+			);
+			path = KKEventApp;
+			sourceTree = "<group>";
+		};
+		C4692A321C2ADA6F00A5D2C4 /* KKEventAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4692A331C2ADA6F00A5D2C4 /* KKEventAppTests.swift */,
+				C4692A351C2ADA6F00A5D2C4 /* Info.plist */,
+			);
+			path = KKEventAppTests;
+			sourceTree = "<group>";
+		};
+		C4692A3D1C2ADA6F00A5D2C4 /* KKEventAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4692A3E1C2ADA6F00A5D2C4 /* KKEventAppUITests.swift */,
+				C4692A401C2ADA6F00A5D2C4 /* Info.plist */,
+			);
+			path = KKEventAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4692A1A1C2ADA6F00A5D2C4 /* KKEventApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4692A431C2ADA6F00A5D2C4 /* Build configuration list for PBXNativeTarget "KKEventApp" */;
+			buildPhases = (
+				C4692A171C2ADA6F00A5D2C4 /* Sources */,
+				C4692A181C2ADA6F00A5D2C4 /* Frameworks */,
+				C4692A191C2ADA6F00A5D2C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKEventApp;
+			productName = KKEventApp;
+			productReference = C4692A1B1C2ADA6F00A5D2C4 /* KKEventApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4692A2E1C2ADA6F00A5D2C4 /* KKEventAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4692A461C2ADA6F00A5D2C4 /* Build configuration list for PBXNativeTarget "KKEventAppTests" */;
+			buildPhases = (
+				C4692A2B1C2ADA6F00A5D2C4 /* Sources */,
+				C4692A2C1C2ADA6F00A5D2C4 /* Frameworks */,
+				C4692A2D1C2ADA6F00A5D2C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4692A311C2ADA6F00A5D2C4 /* PBXTargetDependency */,
+			);
+			name = KKEventAppTests;
+			productName = KKEventAppTests;
+			productReference = C4692A2F1C2ADA6F00A5D2C4 /* KKEventAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4692A391C2ADA6F00A5D2C4 /* KKEventAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4692A491C2ADA6F00A5D2C4 /* Build configuration list for PBXNativeTarget "KKEventAppUITests" */;
+			buildPhases = (
+				C4692A361C2ADA6F00A5D2C4 /* Sources */,
+				C4692A371C2ADA6F00A5D2C4 /* Frameworks */,
+				C4692A381C2ADA6F00A5D2C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4692A3C1C2ADA6F00A5D2C4 /* PBXTargetDependency */,
+			);
+			name = KKEventAppUITests;
+			productName = KKEventAppUITests;
+			productReference = C4692A3A1C2ADA6F00A5D2C4 /* KKEventAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4692A131C2ADA6F00A5D2C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Dylan;
+				TargetAttributes = {
+					C4692A1A1C2ADA6F00A5D2C4 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C4692A2E1C2ADA6F00A5D2C4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C4692A1A1C2ADA6F00A5D2C4;
+					};
+					C4692A391C2ADA6F00A5D2C4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C4692A1A1C2ADA6F00A5D2C4;
+					};
+				};
+			};
+			buildConfigurationList = C4692A161C2ADA6F00A5D2C4 /* Build configuration list for PBXProject "KKEventApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4692A121C2ADA6F00A5D2C4;
+			productRefGroup = C4692A1C1C2ADA6F00A5D2C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4692A1A1C2ADA6F00A5D2C4 /* KKEventApp */,
+				C4692A2E1C2ADA6F00A5D2C4 /* KKEventAppTests */,
+				C4692A391C2ADA6F00A5D2C4 /* KKEventAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4692A191C2ADA6F00A5D2C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4692A291C2ADA6F00A5D2C4 /* LaunchScreen.storyboard in Resources */,
+				C4692A261C2ADA6F00A5D2C4 /* Assets.xcassets in Resources */,
+				C4692A241C2ADA6F00A5D2C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4692A2D1C2ADA6F00A5D2C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4692A381C2ADA6F00A5D2C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4692A171C2ADA6F00A5D2C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4692A211C2ADA6F00A5D2C4 /* ViewController.swift in Sources */,
+				C4692A1F1C2ADA6F00A5D2C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4692A2B1C2ADA6F00A5D2C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4692A341C2ADA6F00A5D2C4 /* KKEventAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4692A361C2ADA6F00A5D2C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4692A3F1C2ADA6F00A5D2C4 /* KKEventAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4692A311C2ADA6F00A5D2C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4692A1A1C2ADA6F00A5D2C4 /* KKEventApp */;
+			targetProxy = C4692A301C2ADA6F00A5D2C4 /* PBXContainerItemProxy */;
+		};
+		C4692A3C1C2ADA6F00A5D2C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4692A1A1C2ADA6F00A5D2C4 /* KKEventApp */;
+			targetProxy = C4692A3B1C2ADA6F00A5D2C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4692A221C2ADA6F00A5D2C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4692A231C2ADA6F00A5D2C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4692A271C2ADA6F00A5D2C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4692A281C2ADA6F00A5D2C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4692A411C2ADA6F00A5D2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4692A421C2ADA6F00A5D2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4692A441C2ADA6F00A5D2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKEventApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihounokyaku.KKEventApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4692A451C2ADA6F00A5D2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKEventApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihounokyaku.KKEventApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4692A471C2ADA6F00A5D2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KKEventAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihounokyaku.KKEventAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKEventApp.app/KKEventApp";
+			};
+			name = Debug;
+		};
+		C4692A481C2ADA6F00A5D2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KKEventAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihounokyaku.KKEventAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKEventApp.app/KKEventApp";
+			};
+			name = Release;
+		};
+		C4692A4A1C2ADA6F00A5D2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KKEventAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihounokyaku.KKEventAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKEventApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4692A4B1C2ADA6F00A5D2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KKEventAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihounokyaku.KKEventAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKEventApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4692A161C2ADA6F00A5D2C4 /* Build configuration list for PBXProject "KKEventApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4692A411C2ADA6F00A5D2C4 /* Debug */,
+				C4692A421C2ADA6F00A5D2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4692A431C2ADA6F00A5D2C4 /* Build configuration list for PBXNativeTarget "KKEventApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4692A441C2ADA6F00A5D2C4 /* Debug */,
+				C4692A451C2ADA6F00A5D2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4692A461C2ADA6F00A5D2C4 /* Build configuration list for PBXNativeTarget "KKEventAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4692A471C2ADA6F00A5D2C4 /* Debug */,
+				C4692A481C2ADA6F00A5D2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4692A491C2ADA6F00A5D2C4 /* Build configuration list for PBXNativeTarget "KKEventAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4692A4A1C2ADA6F00A5D2C4 /* Debug */,
+				C4692A4B1C2ADA6F00A5D2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4692A131C2ADA6F00A5D2C4 /* Project object */;
+}
