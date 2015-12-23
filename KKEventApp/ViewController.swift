@@ -10,13 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    //CHANGE!
-    //Does this work??
-    // #R#R#
-    //32523523523
-    //this is ridiculous
-    //erherfhdfhtdhetd
-    //This had better work!
+
     
 
     override func viewDidLoad() {
